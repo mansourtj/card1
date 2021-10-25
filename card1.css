@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(44, 42, 42);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 350px;
+    height: 600px;
+    margin: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    
+
+    
+    
+}
+.card-image{
+    background-color: cornflowerblue;
+    width: 350px;
+    height: 180px;
+    background-size: cover;
+}
+h1{
+    padding: 15px;
+    font-family: sans-serif;
+
+}
+p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.mont1{
+    background-image: url("https://images.unsplash.com/photo-1481956877760-f6dfc6a98342?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBtb3VudGFpbnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+}
+.mont2{
+    background-image: url("https://wallpapercave.com/wp/wp5908058.png");
+}
+.mont3{
+    background-image: url("https://cdn.wallpapersafari.com/40/89/PBf4dL.jpg");
+}
+.card a{
+    color: white;
+    display: block;
+    background-color: #3D2C40;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+
+}
+.card:hover{
+    background-color: #2B2A33;
+    transform: scale(1.03);
+    box-shadow: 10px 10px 10px #80808033;
+
+    
+}
